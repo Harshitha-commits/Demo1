@@ -13,7 +13,7 @@ Feature: Validating Place API's
       |AAhouse |  English |World cross center|
 #	|BBhouse | Spanish  |Sea cross center  |
 
-  @DeletePlaces
+  @DeletePlace @Regression
   Scenario: Verify if Delete Place functionality is working
 
     Given DeletePlace Payload
