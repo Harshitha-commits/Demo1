@@ -13,7 +13,11 @@ Feature: Validating Place API's
       |AAhouse |  English |World cross center|
 #	|BBhouse | Spanish  |Sea cross center  |
 
+<<<<<<<< HEAD:src/test/java/features/PlacevalidationsnewAPI.feature
   @DeletePlace @Regression
+========
+  @DeletePlaces @Demo
+>>>>>>>> 9918fd7dceafd7b99684d1112958f5feb776e1b4:src/test/java/features/ValidatePlacesAPIs.feature
   Scenario: Verify if Delete Place functionality is working
 
     Given DeletePlace Payload
